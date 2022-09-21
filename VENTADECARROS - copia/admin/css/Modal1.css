@@ -1,0 +1,145 @@
+html,body,.auxBtn,.fondo{
+	width: 100%;
+	height: 100%;
+}
+.fondo{
+	background-color:rgba(0,0,0,.6);/*aplicando olor negro con cierta transparensia*/
+	display: none;/*quitar la visualizacion de html*/
+	z-index: 10;/*nos perminete sobroponer un contenido sobre otro, entre mayor sea el numero se le 
+	brindara mas prioridad*/
+	position: fixed; /*nos perminite dejer fijado */
+	top:0;
+	left: 0;
+	align-items: center;
+	justify-content: center;
+}
+.icono{
+width: 40px;
+color: #0075bf;
+position: relative;
+top: -7px;
+left: 157px;
+}
+.icono1{
+width: 40px;
+color: #0075bf;
+position: relative;
+top: -7px;
+left: 662px;
+}
+.imagen{
+width: 122px;
+position: relative;
+top: -14px;
+left: 238px;
+font-size: 11px;
+}
+.imagen2{
+position: relative;
+left: -3px;
+display: block;
+margin: -6px auto;
+width: 230px;
+font-size: 11px;
+}
+.imagen2Modal{
+position: relative;
+left: -3px;
+display: block;
+margin: -6px auto;
+width: 230px;
+font-size: 11px;
+}
+.camposIngreso1{
+display: block;
+margin: -6px auto;
+width: 45%;
+font-size: 18px;
+border: none;
+border-radius: 21px;
+text-align: center;
+padding: 4px;
+color: #04446c;
+outline: none;
+background-color: #0028fd1f;
+}
+.imagen4{
+width: 122px;
+position: relative;
+top: -14px;
+left: 838px;
+font-size: 11px;
+}
+.imagen3{
+position: relative;
+left: -3px;
+display: block;
+margin: -6px auto;
+width: 473px;
+font-size: 11px;
+}
+.tablaFotos{
+font-family: arial, sans-serif;
+border-collapse: collapse;
+margin: 14px auto;
+width: 71%;
+height: 125%;
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+
+}
+.foto{
+width: 209px;
+height: 206px;
+display: block;
+}
+.foto1{
+width: 119px;
+height: 116px;
+display: block;
+}
+
+.tablaFotos1{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 36%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  position: relative;
+  top: 347px;
+  left: 7px;
+}
+
+.foto2{
+width: 299px;
+height: 296px;
+display: block;
+}
+
+.tablaFoto{
+  font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 66%;
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+position: relative;
+top: 8px;
+left: 7px;
+}
+.centrar{
+	width: 100%;
+	bottom: 0;
+	display: flex;/*nos permite configurar y organizar los elementos html de manera flexible, apoyandonos de otras propiedades*/
+	align-items: center; /*alinea vertical centrado lo podemos utilizar con display flex*/
+	justify-content: center;/*alinea horizontal centrado lo podemos utilizar con display flex*/
+	
+	
+}
+.presentacion{
+	width: 45%;
+	
+	margin: 0 auto ;
+}
+.imagenes{
+	width: 20%;
+}
